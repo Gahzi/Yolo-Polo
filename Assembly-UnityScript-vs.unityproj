@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\MovementMotor.js" />
      <Compile Include="Assets\Scripts\P1Motor.js" />
      <Compile Include="Assets\Scripts\P2Motor.js" />
+     <None Include="Assets\3D Models\Human Knight\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

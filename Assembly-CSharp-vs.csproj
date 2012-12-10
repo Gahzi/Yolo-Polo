@@ -44,10 +44,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MovementTestOne.cs" />
      <Compile Include="Assets\Scripts\2D\CameraFocus.cs" />
      <Compile Include="Assets\Scripts\2D\CameraScrolling.cs" />
      <Compile Include="Assets\Scripts\2D\CameraTargetAttributes.cs" />
      <Compile Include="Assets\Scripts\2D\LevelAttributes.cs" />
+     <None Include="Assets\3D Models\Human Knight\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
