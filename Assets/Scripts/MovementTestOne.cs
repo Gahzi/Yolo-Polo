@@ -7,11 +7,8 @@ public class MovementTestOne : MonoBehaviour {
 	public GameObject name = null;
     public GameObject pivot = null;
 	void Update() {
-        float translation = Input.GetAxis("Keyboard Horizontal") * speed;
-        float rotation = Input.GetAxis("Keyboard Vertical") * rotationSpeed;
-        translation *= Time.deltaTime;
+        float rotation = Input.GetAxis("Player One Vertical") * rotationSpeed;
         rotation *= Time.deltaTime;
-        transform.Translate(0, 0, translation);
         name.transform.RotateAround(pivot.transform.position,Vector3.forward,rotation);
     }
 }

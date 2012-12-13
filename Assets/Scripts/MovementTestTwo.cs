@@ -7,11 +7,8 @@ public class MovementTestTwo : MonoBehaviour {
 	public GameObject name = null;
     public GameObject pivot = null;
 	void Update() {
-        float translation = Input.GetAxis("Joystick Horizontal") * speed;
-        float rotation = Input.GetAxis("Joystick Vertical") * rotationSpeed;
-        translation *= Time.deltaTime;
+        float rotation = Input.GetAxis("Player Two Vertical") * rotationSpeed;
         rotation *= Time.deltaTime;
-        transform.Translate(0, 0, translation);
         name.transform.RotateAround(pivot.transform.position,Vector3.forward,rotation);
     }
 }
