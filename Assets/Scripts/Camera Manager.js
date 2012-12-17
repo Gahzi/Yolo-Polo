@@ -1,4 +1,4 @@
-#pragma strict
+//#pragma strict
 
 var cam1: Camera;
 var cam2: Camera;
@@ -14,7 +14,7 @@ function Start() {
 
 function Update() {
 
-	if(player.transform.position.x - target.transform.position.x < (Screen.width / 16)){
+	if(player.transform.position.x == target.transform.position.x){ //< (Screen.width / 16)){
 	
 	cam1.enabled = false;
 	cam2.enabled = false;
