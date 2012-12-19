@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera Manager.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/JavaJangle.js">
     <Files>
       <File FileName="Assets/Scripts/2D/CameraScrolling.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/2D/LevelAttributes.cs" Line="1" Column="1" />
@@ -9,7 +9,8 @@
       <File FileName="Assets/Scripts/CameraFollow.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/P2Motor.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerOneFollow.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Camera Manager.js" Line="15" Column="15" />
+      <File FileName="Assets/Scripts/Camera Manager.js" Line="1" Column="1" />
+      <File FileName="Assets/JavaJangle.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
