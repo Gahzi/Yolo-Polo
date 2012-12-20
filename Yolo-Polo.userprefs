@@ -1,14 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MovementTestOne.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerOneFollow.js">
     <Files>
-      <File FileName="Assets\Scripts\MovementTestOne.cs" Line="12" Column="4" />
-      <File FileName="Assets\Scripts\JavaJanglePlayerOne.js" Line="12" Column="84" />
-      <File FileName="Assets\Scripts\LanceCollision.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MovementTestTwo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\follow2motor.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\P2Motor.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MovementMotor.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerOneFollow.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -12,9 +12,9 @@ function Start() {
     cam3.enabled = false;
 }
 
-function Update() {
+function FixedUpdate() {
 
-	if(target.transform.position.x < 3.825){ //< (Screen.width / 16)){
+	if(target.transform.position.x < 5.25){ //< (Screen.width / 16)){
 	
 	cam1.enabled = false;
 	cam2.enabled = false;
