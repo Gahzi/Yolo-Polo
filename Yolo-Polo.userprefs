@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerOneFollow.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/JavaJanglePlayerOne.js">
     <Files>
       <File FileName="Assets/Scripts/PlayerOneFollow.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Camera Manager.js" Line="15" Column="16" />
+      <File FileName="Assets/Scripts/P2Motor.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/JavaJanglePlayerOne.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
