@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{816B2107-CED4-1ABC-0288-2553CF5B6398}</ProjectGuid>
+	<ProjectGuid>{57775199-9ABA-2C32-7171-48DDA4EB1B20}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,13 +46,14 @@
   <ItemGroup>
      <Compile Include="Assets\JavaJanglePlayerOne.js" />
      <Compile Include="Assets\JavaJanglePlayerTwo.js" />
+     <Compile Include="Assets\SceneChanger.js" />
      <Compile Include="Assets\Scripts\Camera Manager.js" />
-     <Compile Include="Assets\Scripts\CameraFollow.js" />
      <Compile Include="Assets\Scripts\LanceCollision.js" />
      <Compile Include="Assets\Scripts\MovementMotor.js" />
      <Compile Include="Assets\Scripts\P1Motor.js" />
      <Compile Include="Assets\Scripts\P2Motor.js" />
      <Compile Include="Assets\Scripts\PlayerOneFollow.js" />
+     <Compile Include="Assets\Scripts\PlayerTwoFollow.js" />
      <Compile Include="Assets\follow1motor.js" />
      <Compile Include="Assets\follow2motor.js" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -128,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{1A5D0F6C-2A49-67A0-EEAE-93277B0CC21D}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{B2A5B571-FB60-9B60-D6E2-3D52E4C965C9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
